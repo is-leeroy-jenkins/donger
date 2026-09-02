@@ -1,9 +1,9 @@
-site_name: Donger Documentation
-site_description: Official documentation for Donger, a XAI-powered multimodal AI assistant for analysis, document review, retrieval, prompt management, and data workflows.
+site_name: donger Documentation
+site_description: Official documentation for donger, a XAI-powered multimodal AI assistant for analysis, document review, retrieval, prompt management, and data workflows.
 site_author: Terry D. Eppler
 site_url: https://is-leeroy-jenkins.github.io/Donger/
 repo_url: https://github.com/is-leeroy-jenkins/Donger
-repo_name: is-leeroy-jenkins/Donger
+repo_name: is-leeroy-jenkins/donger
 
 theme:
   name: material

@@ -150,7 +150,7 @@ image = images.generate(
 )
 
 if image is not None:
-    output_path = Path("docs/images/Donger-generated-architecture.png")
+    output_path = Path("docs/images/donger-generated-architecture.png")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     image.save(output_path)
     print(f"Saved image to {output_path}")
@@ -168,7 +168,7 @@ analysis = images.analyze(
         "Review this architecture diagram for documentation quality. Identify missing labels, "
         "unclear relationships, and improvements for a technical audience."
     ),
-    path="docs/images/Donger-architecture.png",
+    path="docs/images/donger-architecture.png",
     model=<grok image model>,
     response_modalities="text",
 )
@@ -189,7 +189,7 @@ edited = images.edit(
         "Improve text contrast, preserve the dark theme, make the layer boundaries clearer, "
         "and keep the diagram suitable for MkDocs documentation."
     ),
-    path="docs/images/Donger-architecture.png",
+    path="docs/images/donger-architecture.png",
     model=<grok image model>,,
     aspect="16:9",
     resolution="1K",
@@ -197,7 +197,7 @@ edited = images.edit(
 )
 
 if edited is not None:
-    output_path = Path("docs/images/Donger-architecture-edited.png")
+    output_path = Path("docs/images/donger-architecture-edited.png")
     edited.save(output_path)
     print(f"Saved edited image to {output_path}")
 ```
@@ -218,7 +218,7 @@ from grok import TTS
 tts = TTS()
 
 audio_bytes = tts.create_speech(
-    text="Donger is ready to support text, image, audio, document, and data workflows.",
+    text="donger is ready to support text, image, audio, document, and data workflows.",
     model=<grok audio model>,
     voice="Kore",
     format="audio/wav",
@@ -236,8 +236,8 @@ from grok import TTS
 tts = TTS()
 
 output_path = tts.create_speech(
-    text="This is a generated audio briefing from Donger.",
-    filepath="outputs/Donger-briefing.wav",
+    text="This is a generated audio briefing from donger.",
+    filepath="outputs/donger-briefing.wav",
     model=<grok audio model>,
     voice="Kore",
     format="audio/wav",
@@ -544,7 +544,7 @@ analysis = images.analyze(
         "main layers, service boundaries, request flow, configuration flow, and persistence "
         "flow are clear."
     ),
-    path="docs/images/Donger-architecture.png",
+    path="docs/images/donger-architecture.png",
     model=<grok model>,
     response_modalities="text",
 )

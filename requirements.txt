@@ -1,4 +1,4 @@
-# Donger production runtime for Python 3.11 / Linux x86-64.
+# donger production runtime for Python 3.11 / Linux x86-64.
 # PyTorch is installed separately from the CPU-only index in Dockerfile.
 
 # Application framework and presentation

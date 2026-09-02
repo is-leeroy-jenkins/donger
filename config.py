@@ -184,7 +184,7 @@ XAI_BASE_URL = 'https://api.x.ai/v1'
 XAI_MANAGEMENT_BASE_URL = os.getenv( 'XAI_MANAGEMENT_BASE_URL' )
 GOLD_DIVIDER = "<div style='height:2px;align:left;background:#FFCC01;margin:30px 0px 30px 0px;'></div>"
 APP_TITLE = 'Donger'
-APP_SUBTITLE = 'A mulit-modal AI based on Grok'
+APP_SUBTITLE = 'A multi-modal AI based on Grok'
 OPEN_TAG = re.compile( r'<([A-Za-z0-9_\-:.]+)>' )
 CLOSE_TAG = re.compile( r'</([A-Za-z0-9_\-:.]+)>' )
 MARKDOWN_HEADING_PATTERN = re.compile( r'^##\s+(?P<title>.+?)\s*$' )
@@ -196,7 +196,7 @@ DONGER = '🧠'
 PROVIDERS = { 'Grok': 'grok', }
 PROMPT_VERSION = '16'
 LOCAL_AUDIO_PATH = r'stores/audio/conditions.mp3'
-DONGR_LOGO = r'resources/images/dngr-logo.png'
+DONGER_LOGO = r'resources/images/dngr-logo.png'
 GROK = '𝕏'
 GROK_AVATAR = r'resources/images/dngr-avatar.png'
 OUTPUT_FILE_NAME = "donger.wav"
