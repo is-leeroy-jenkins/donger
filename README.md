@@ -36,6 +36,46 @@ analyst-oriented interface. Food is not included.
 
 ![](https://github.com/is-leeroy-jenkins/Donger/blob/main/resources/images/donger-demo.gif)
 
+___
+
+![](https://github.com/is-leeroy-jenkins/Donger/blob/main/resources/Donger-demo.gif)
+
+
+
+## ☁️ Cloud
+
+<table>
+<tr>
+<td align="center">
+<img width="190" height="1" alt=""><br>
+<a href="https://donger.blackrock-db28bf31.eastus.azurecontainerapps.io">
+<img src="https://img.shields.io/badge/Docker-App-2496ED?logo=docker&logoColor=white" alt="Docker App">
+</a>
+</td>
+
+<td align="center">
+<img width="190" height="1" alt=""><br>
+<a href="https://donger-py.streamlit.app/">
+<img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit App">
+</a>
+</td>
+
+<td align="center">
+<img width="190" height="1" alt=""><br>
+<a href="https://dbc-a0c21f80-7bb3.cloud.databricks.com/browse/folders/2765817742527711?o=7474645703081351">
+<img src="https://img.shields.io/badge/Databricks%20Repo-Donger-FF3621?logo=databricks&logoColor=white" alt="Databricks Notebook">
+</a>
+</td>
+
+<td align="center">
+<a href="https://leeroy.usw-16.palantirfoundry.com/shares/links/g3ofgagurigh2">
+<img width="190" height="1" alt=""><br>
+<img src="https://img.shields.io/badge/Palantir-Repo-101113?logo=palantir&logoColor=white" alt="Palantir Repo">
+</a>
+</td>
+</tr>
+</table>
+
 ## Core Capabilities
 
 | Mode | Description |
@@ -51,36 +91,6 @@ analyst-oriented interface. Food is not included.
 | 🧩 **Prompt Engineering** | Create, search, edit, version, convert, and delete reusable prompt records |
 | 🏛️ **Data Management** | Import, profile, filter, visualize, export, index, alter, and query local SQLite data |
 
-___
-
-## 📦 Architecture
-![](https://github.com/is-leeroy-jenkins/Donger/blob/main/resources/images/donger-architecture.png)
-
-
-## 🧊 Azure
-
-[![Containerized](https://img.shields.io/badge/Docker-App-2496ED?logo=docker&logoColor=white)](https://donger.blackrock-db28bf31.eastus.azurecontainerapps.io)
-
-* Containerized application deployment.
-
-## 🔥 Streamlit
-
-[![Streamlit App](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://donger-py.streamlit.app/)
-
-* Interactive, wide-layout analytical interface.
-* Direct chat and retrieval queries against federal financial-management and defense guidance.
-* Session-based controls for Grok credentials, models, prompts, files, and analytical results.
-
-![](https://github.com/is-leeroy-jenkins/Donger/blob/main/resources/Donger-chat.gif)
-
-## 🧱 Databricks
-
-[![Donger](https://img.shields.io/badge/Databricks-Donger-FF3621?logo=databricks&logoColor=white)](https://dbc-a0c21f80-7bb3.cloud.databricks.com/browse/folders/2765817742527711?o=7474645703081351)
-
-* Collaborative data-engineering, analytics, and artificial-intelligence workspace.
-* Supports knowledge-base customization, computer-vision workflows, and text embeddings.
-
-![](https://github.com/is-leeroy-jenkins/Donger/blob/main/resources/Donger-demo.gif)
 
 ## Model Integration
 
