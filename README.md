@@ -22,7 +22,7 @@
 
 ___
 
-[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-0078FC?style=for-the-badge&logo=github)](https://is-leeroy-jenkins.github.io/Donger/)
+[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-0078FC?style=for-the-badge&logo=github)](https://is-leeroy-jenkins.github.io/donger/)
 
 Donger is a xAI Grok-powered, multimodal application written in Python for data, financial
 and policy analysis. It combines conversational ai and structured text
