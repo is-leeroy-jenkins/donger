@@ -52,3 +52,10 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+
+# Application packaging
+build/
+dist/
+dist-installer/
+*.egg-info/
+__pycache__/

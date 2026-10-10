@@ -9,7 +9,7 @@
   &bull;
   <a href="#-configuration">Configuration</a>
   &bull;
-  <a href="#-installation">Installation</a>
+  <a href="resources/installation.md">Installation</a>
   &bull;
   <a href="#application-features">Features</a>
   &bull;
@@ -23,6 +23,20 @@
 ___
 
 [![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-0078FC?style=for-the-badge&logo=github)](https://is-leeroy-jenkins.github.io/donger/)
+
+## PyPI application
+
+```powershell
+python -m pip install donger-py
+donger
+```
+
+`donger` opens the tabless Windows WebView2 window by default.
+`donger-browser` opens standard browser mode, including on other platforms.
+Python 3.11–3.12 is required. Windows requires Edge WebView2 Runtime.
+The distribution is `donger-py`; the import is `donger`.
+See [installation](resources/installation.md) and
+[PyPI publishing](resources/pypi-release.md).
 
 Donger is a xAI Grok-powered, multimodal application written in Python for data, financial
 and policy analysis. It combines conversational ai and structured text
